@@ -15,6 +15,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <title>Avinash's Portfolio</title>
+        <meta
+          name="description"
+          content="Avinash is an experienced software engineer building scalable systems on
+        backend, developing high performant UI on frontend. Open Source
+        contributor, Avid learner, Tech blogger actively giving back to
+        community"
+        ></meta>
+        <meta name="keywords" content="Frontend, FullStack Javascript" />
+        <meta name="author" content="Avinash DV" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link

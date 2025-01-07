@@ -17,7 +17,8 @@ export default function About() {
       >
         Avinash is an experienced software engineer building scalable systems on
         backend, developing high performant UI on frontend. Open Source
-        contributor, learning tech, posting blogs & giving back to community
+        contributor, Avid learner, Tech blogger actively giving back to
+        community
       </Text>
       <Work />
     </Box>
