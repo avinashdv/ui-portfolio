@@ -15,13 +15,19 @@ export default function Menu() {
       setHandle("portfolio-about");
     } else if (scrollInPx >= 500 && scrollInPx < 1300) {
       setHandle("portfolio-resume");
-    } else if (scrollInPx >= 1300 && scrollInPx < 2200) {
-      setHandle("portfolio-works");
-    } else if (scrollInPx >= 2200 && scrollInPx < 2600) {
+    } else if (scrollInPx >= 1300 && scrollInPx < 1800) {
       setHandle("portfolio-blogs");
-    } else if (scrollInPx >= 2600) {
+    } else if (scrollInPx >= 1800) {
       setHandle("portfolio-contact");
     }
+    // else if (scrollInPx >= 1300 && scrollInPx < 2200) {
+    //   setHandle("portfolio-works");
+    // }
+    // else if (scrollInPx >= 2200 && scrollInPx < 2600) {
+    //   setHandle("portfolio-blogs");
+    // } else if (scrollInPx >= 2600) {
+    //   setHandle("portfolio-contact");
+    // }
   }
 
   return (
@@ -35,7 +41,7 @@ export default function Menu() {
       h={{ base: "auto", xl: "280px" }}
       top="30"
       position={{ base: "relative", xl: "sticky" }}
-      justifyContent={"center"}
+      justifyContent={{ base: "space-around", xl: "space-evenly" }}
     >
       <MenuItem
         title="ABOUT ME"
@@ -49,12 +55,12 @@ export default function Menu() {
         isActive={handle === "portfolio-resume"}
         link="portfolio-resume"
       />
-      <MenuItem
+      {/* <MenuItem
         title="PORTFOLIO"
         titleshort="P"
         isActive={handle === "portfolio-works"}
         link="portfolio-works"
-      />
+      /> */}
       <MenuItem
         title="BLOG"
         titleshort="B"
