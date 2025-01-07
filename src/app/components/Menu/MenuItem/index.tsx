@@ -1,3 +1,4 @@
+"use client";
 import { Link, Text, Flex, useBreakpoint } from "@chakra-ui/react";
 
 interface Props {

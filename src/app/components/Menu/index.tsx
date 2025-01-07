@@ -1,13 +1,16 @@
+"use client";
 import { Flex } from "@chakra-ui/react";
 import MenuItem from "./MenuItem";
 import { useState } from "react";
 
 export default function Menu() {
-  const [handle, setHandle] = useState("portfolio-about");
+  const [handle, setHandle] = useState<string>("portfolio-about");
 
-  window.onscroll = function () {
-    myFunction();
-  };
+  if (typeof window !== "undefined") {
+    window.onscroll = function () {
+      myFunction();
+    };
+  }
 
   function myFunction() {
     const scrollInPx = document.documentElement.scrollTop;

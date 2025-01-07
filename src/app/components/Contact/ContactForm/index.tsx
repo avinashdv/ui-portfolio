@@ -1,3 +1,4 @@
+"use client";
 import { Textarea, Button, Flex, FormControl, Input } from "@chakra-ui/react";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";

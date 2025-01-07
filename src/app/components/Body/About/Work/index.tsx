@@ -1,3 +1,4 @@
+"use client";
 import { Text, Flex } from "@chakra-ui/react";
 
 export default function Work() {

@@ -1,3 +1,4 @@
+"use client";
 import { Text, Flex, Box } from "@chakra-ui/react";
 
 interface Props {

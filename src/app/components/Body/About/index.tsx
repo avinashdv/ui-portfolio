@@ -1,3 +1,4 @@
+"use client";
 import { Text, Box } from "@chakra-ui/react";
 import Work from "./Work";
 import HeadingTitle from "../../HeadingTitle";

@@ -1,3 +1,4 @@
+"use client";
 import { Text, Flex, Box } from "@chakra-ui/react";
 import HeadingTitle from "../HeadingTitle";
 import Education from "./Education";

@@ -1,3 +1,4 @@
+"use client";
 import { Flex, Box } from "@chakra-ui/react";
 import Avatar from "./Avatar";
 import About from "./About";

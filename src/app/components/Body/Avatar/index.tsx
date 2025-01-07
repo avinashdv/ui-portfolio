@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import { Text, Flex, Box } from "@chakra-ui/react";
 import { useEffect, useState } from "react";

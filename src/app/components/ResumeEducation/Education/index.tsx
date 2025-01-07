@@ -1,3 +1,4 @@
+"use client";
 import { Icon, Text, Box } from "@chakra-ui/react";
 import { BsMortarboard } from "react-icons/bs";
 import { BsBriefcase } from "react-icons/bs";
