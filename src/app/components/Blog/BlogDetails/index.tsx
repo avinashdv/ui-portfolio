@@ -1,14 +1,4 @@
-import Image from "next/image";
-import {
-  Button,
-  useDisclosure,
-  Slide,
-  SlideFade,
-  Text,
-  Flex,
-  Box,
-  Link,
-} from "@chakra-ui/react";
+import { Text, Flex, Link } from "@chakra-ui/react";
 
 interface Props {
   date: string;

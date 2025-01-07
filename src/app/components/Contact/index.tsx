@@ -1,14 +1,4 @@
-import Image from "next/image";
-import {
-  Button,
-  useDisclosure,
-  Slide,
-  SlideFade,
-  Text,
-  Flex,
-  Box,
-  Link,
-} from "@chakra-ui/react";
+import { Text, Flex, Box } from "@chakra-ui/react";
 import HeadingTitle from "../HeadingTitle";
 import ContactForm from "./ContactForm";
 

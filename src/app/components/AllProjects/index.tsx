@@ -1,6 +1,4 @@
-import Image from "next/image";
-import { Text, Flex, Box } from "@chakra-ui/react";
-import HeadingTitle from "../HeadingTitle";
+import { Flex } from "@chakra-ui/react";
 import Project from "../Project";
 
 export default function AllProjects() {

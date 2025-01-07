@@ -2,7 +2,6 @@ import { Flex, Box } from "@chakra-ui/react";
 import Avatar from "./Avatar";
 import About from "./About";
 import Experience from "./About/Experience";
-import Portfolio from "../Portfolio";
 import BlogPosts from "../BlogPosts";
 import Contact from "../Contact";
 import ResumeEducation from "../ResumeEducation";

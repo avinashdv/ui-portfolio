@@ -1,15 +1,5 @@
 import Image from "next/image";
-import {
-  Button,
-  useDisclosure,
-  Slide,
-  SlideFade,
-  Text,
-  Flex,
-  Box,
-  Link,
-  useBreakpoint,
-} from "@chakra-ui/react";
+import { Text, Box, useBreakpoint } from "@chakra-ui/react";
 
 interface Props {
   about: string;

@@ -1,29 +1,9 @@
-import Image from "next/image";
-import {
-  Textarea,
-  Button,
-  useDisclosure,
-  Slide,
-  SlideFade,
-  Text,
-  Flex,
-  Box,
-  Link,
-  FormControl,
-  FormLabel,
-  FormErrorMessage,
-  FormHelperText,
-  Input,
-} from "@chakra-ui/react";
-import { useState, useRef } from "react";
+import { Textarea, Button, Flex, FormControl, Input } from "@chakra-ui/react";
+import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 export default function ContactForm() {
   const form = useRef<any>(null);
-
-  const [input, setInput] = useState("");
-
-  const handleInputChange = (e: any) => setInput(e.target.value);
 
   const sendEmail = (e: any) => {
     e.preventDefault();
@@ -47,16 +27,12 @@ export default function ContactForm() {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <FormControl
-        p="10"
-        // isInvalid={isError}
-      >
+      <FormControl p="10">
         <Flex gap="4" direction={{ base: "column", md: "row" }}>
           <Input
             type="text"
             border="0"
             borderBottom={"1px dashed rgba(0, 0, 0, 0.2)"}
-            onChange={handleInputChange}
             name="user_name"
             placeholder="Name"
             _focusVisible={{
@@ -69,7 +45,6 @@ export default function ContactForm() {
             name="user_email"
             border="0"
             borderBottom={"1px dashed rgba(0, 0, 0, 0.2)"}
-            onChange={handleInputChange}
             _focusVisible={{
               border: "0 0 1px 0",
             }}
@@ -82,7 +57,6 @@ export default function ContactForm() {
           placeholder="Subject"
           border="0"
           borderBottom={"1px dashed rgba(0, 0, 0, 0.2)"}
-          onChange={handleInputChange}
           _focusVisible={{
             border: "0 0 1px 0",
           }}
@@ -92,7 +66,6 @@ export default function ContactForm() {
           border={0}
           name="message"
           borderBottom={"1px dashed rgba(0, 0, 0, 0.2)"}
-          onChange={handleInputChange}
           placeholder="Message"
           size="sm"
           _focusVisible={{
@@ -113,13 +86,6 @@ export default function ContactForm() {
         >
           Send Message
         </Button>
-        {/* {!isError ? (
-        <FormHelperText>
-          Enter the email you'd like to receive the newsletter on.
-        </FormHelperText>
-      ) : (
-        <FormErrorMessage>Email is required.</FormErrorMessage>
-      )} */}
       </FormControl>
     </form>
   );

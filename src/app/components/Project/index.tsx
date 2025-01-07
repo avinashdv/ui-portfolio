@@ -1,13 +1,5 @@
 import Image from "next/image";
-import {
-  useDisclosure,
-  Slide,
-  SlideFade,
-  Text,
-  Flex,
-  Box,
-} from "@chakra-ui/react";
-import HeadingTitle from "../HeadingTitle";
+import { useDisclosure, SlideFade, Text, Box } from "@chakra-ui/react";
 
 interface Props {
   url: string;

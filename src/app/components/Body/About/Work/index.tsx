@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { Text, Flex, Box } from "@chakra-ui/react";
+import { Text, Flex } from "@chakra-ui/react";
 
 export default function Work() {
   return (

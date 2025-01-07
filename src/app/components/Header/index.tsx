@@ -1,4 +1,4 @@
-import { Link, Text, Flex, Box, Icon } from "@chakra-ui/react";
+import { Link, Text, Flex, Icon } from "@chakra-ui/react";
 import { AiFillGithub } from "react-icons/ai";
 import { BsFileTextFill } from "react-icons/bs";
 

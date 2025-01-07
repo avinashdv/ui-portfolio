@@ -10,7 +10,7 @@ export default function Menu() {
   };
 
   function myFunction() {
-    let scrollInPx = document.documentElement.scrollTop;
+    const scrollInPx = document.documentElement.scrollTop;
     if (scrollInPx < 500) {
       setHandle("portfolio-about");
     } else if (scrollInPx >= 500 && scrollInPx < 1300) {
