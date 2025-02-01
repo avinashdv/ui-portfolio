@@ -38,7 +38,7 @@ export default function Header() {
         </Link>
         <Link
           target="_blank"
-          href="https://drive.google.com/file/d/1O-NVtKgdZBO627NbpgTAI8SMKtDBsZgr/view?usp=sharing"
+          href="https://drive.google.com/file/d/1n6ZyOE-WySRJFrHh58kYGoBgsJ3MSFwV/view?usp=sharing"
         >
           <Icon
             as={BsFileTextFill}
