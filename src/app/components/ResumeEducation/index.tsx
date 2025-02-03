@@ -40,7 +40,7 @@ export default function ResumeEducation() {
         <Box w={{ base: "100%", xl: "48%" }}>
           <Education
             year="Jan 2023 - Feb 2024"
-            title="Software Engineer"
+            title="Fullstack Developer"
             place="Geekster"
             id="2"
           />
@@ -51,12 +51,12 @@ export default function ResumeEducation() {
           />
           <Education
             year="Feb 2021 - Jan 2022"
-            title="AI & Backend Engineer"
+            title="Fullstack Developer"
             place="Freelancing"
           />
           <Education
             year="July 2018 - Dec 2020"
-            title="Software Engineer"
+            title="Fullstack Developer"
             place="Bak Bak Technologies"
           />
         </Box>

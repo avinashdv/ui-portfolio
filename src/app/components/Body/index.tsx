@@ -37,7 +37,6 @@ export default function Body() {
       </Box>
       <ResumeEducation />
       <Portfolio />
-      {/* <Portfolio /> */}
       <BlogPosts />
       <Contact />
     </Flex>

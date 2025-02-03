@@ -19,16 +19,18 @@ export default function Menu() {
     } else if (scrollInPx >= 500 && scrollInPx < 1300) {
       setHandle("portfolio-resume");
     } else if (scrollInPx >= 1300 && scrollInPx < 1800) {
-      setHandle("portfolio-blogs");
-    } else if (scrollInPx >= 1800) {
-      setHandle("portfolio-contact");
-    } else if (scrollInPx >= 1300 && scrollInPx < 2200) {
       setHandle("portfolio-works");
-    } else if (scrollInPx >= 2200 && scrollInPx < 2600) {
+    } else if (scrollInPx >= 1800 && scrollInPx < 2200) {
       setHandle("portfolio-blogs");
-    } else if (scrollInPx >= 2600) {
+    } else if (scrollInPx > 2200) {
       setHandle("portfolio-contact");
     }
+    // else if (scrollInPx >= 2200 && scrollInPx < 2600) {
+    //   setHandle("portfolio-blogs");
+    // }
+    // else if (scrollInPx >= 2600) {
+    //   setHandle("portfolio-contact");
+    // }
   }
 
   return (
