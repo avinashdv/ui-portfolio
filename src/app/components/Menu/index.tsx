@@ -22,15 +22,13 @@ export default function Menu() {
       setHandle("portfolio-blogs");
     } else if (scrollInPx >= 1800) {
       setHandle("portfolio-contact");
+    } else if (scrollInPx >= 1300 && scrollInPx < 2200) {
+      setHandle("portfolio-works");
+    } else if (scrollInPx >= 2200 && scrollInPx < 2600) {
+      setHandle("portfolio-blogs");
+    } else if (scrollInPx >= 2600) {
+      setHandle("portfolio-contact");
     }
-    // else if (scrollInPx >= 1300 && scrollInPx < 2200) {
-    //   setHandle("portfolio-works");
-    // }
-    // else if (scrollInPx >= 2200 && scrollInPx < 2600) {
-    //   setHandle("portfolio-blogs");
-    // } else if (scrollInPx >= 2600) {
-    //   setHandle("portfolio-contact");
-    // }
   }
 
   return (
@@ -58,12 +56,12 @@ export default function Menu() {
         isActive={handle === "portfolio-resume"}
         link="portfolio-resume"
       />
-      {/* <MenuItem
+      <MenuItem
         title="PORTFOLIO"
         titleshort="P"
         isActive={handle === "portfolio-works"}
         link="portfolio-works"
-      /> */}
+      />
       <MenuItem
         title="BLOG"
         titleshort="B"

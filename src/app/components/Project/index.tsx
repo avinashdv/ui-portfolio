@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useDisclosure, SlideFade, Text, Box } from "@chakra-ui/react";
+import Link from "next/link";
 
 interface Props {
   url: string;
@@ -73,22 +74,24 @@ const Project: React.FC<Props> = ({ title, about, url }) => {
       </Box>
       <SlideFade in={isOpen} offsetY="15px">
         <Box zIndex={1} position="absolute" bottom="5" left="4">
-          <Text
-            className="text-stroke-white"
-            textDecoration="underline"
-            fontSize={"5xl"}
-            display={"none"}
-            _groupHover={{
-              display: "block",
-            }}
-            _hover={{
-              textDecoration: "none",
-              WebkitTextFillColor: "white",
-              cursor: "pointer",
-            }}
-          >
-            {title}
-          </Text>
+          <Link target="_blank" href="https://theheroapp.in/">
+            <Text
+              className="text-stroke-white"
+              textDecoration="underline"
+              fontSize={"5xl"}
+              display={"none"}
+              _groupHover={{
+                display: "block",
+              }}
+              _hover={{
+                textDecoration: "none",
+                WebkitTextFillColor: "white",
+                cursor: "pointer",
+              }}
+            >
+              {title}
+            </Text>
+          </Link>
         </Box>
       </SlideFade>
     </Box>

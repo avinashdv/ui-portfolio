@@ -6,6 +6,7 @@ import Experience from "./About/Experience";
 import BlogPosts from "../BlogPosts";
 import Contact from "../Contact";
 import ResumeEducation from "../ResumeEducation";
+import Portfolio from "../Portfolio";
 
 export default function Body() {
   return (
@@ -35,6 +36,7 @@ export default function Body() {
         </Flex>
       </Box>
       <ResumeEducation />
+      <Portfolio />
       {/* <Portfolio /> */}
       <BlogPosts />
       <Contact />

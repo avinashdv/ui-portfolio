@@ -45,17 +45,17 @@ export default function ResumeEducation() {
             id="2"
           />
           <Education
-            year="Feb 2022 - July 2022"
+            year="Feb 2022 - Dec 2022"
             title="UI Developer III"
             place="Wizroots Technologies"
           />
           <Education
-            year="APR 2021 - JAN 2022"
+            year="Feb 2021 - Jan 2022"
             title="AI & Backend Engineer"
             place="Freelancing"
           />
           <Education
-            year="July 2018 - OCT 2020"
+            year="July 2018 - Dec 2020"
             title="Software Engineer"
             place="Bak Bak Technologies"
           />

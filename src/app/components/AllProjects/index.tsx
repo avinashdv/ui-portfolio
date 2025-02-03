@@ -5,17 +5,18 @@ export default function AllProjects() {
   return (
     <Flex
       wrap={{ base: "nowrap", xl: "wrap" }}
-      justifyContent={"space-evenly"}
+      // justifyContent={"space-evenly"}
       rowGap={6}
+      mx="12"
       direction={{ base: "column", xl: "row" }}
       alignItems={"center"}
     >
       <Project
-        title="Imagine Art"
-        about="STABLE DIFFUSION, NEXT.JS, TAILWIND CSS"
-        url="/images/p1.jpg"
+        title="Recipe Route"
+        about="NEXT.JS, TAILWIND CSS, EXPRESS.JS, MONGODB"
+        url="/images/p1.png"
       />
-      <Project
+      {/* <Project
         title="SoulGen"
         about="STABLE DIFFUSION, VITE, SCSS"
         url="/images/p2.jpg"
@@ -39,7 +40,7 @@ export default function AllProjects() {
         title="Stelareum"
         about="TWIG, LAMINAS, COINBASEAPI"
         url="/images/p6.jpg"
-      />
+      /> */}
     </Flex>
   );
 }
