@@ -45,7 +45,7 @@ export default function ResumeEducation() {
             id="2"
           />
           <Education
-            year="Feb 2022 - Dec 2022"
+            year="Feb 2022 - July 2022"
             title="UI Developer III"
             place="Wizroots Technologies"
           />
