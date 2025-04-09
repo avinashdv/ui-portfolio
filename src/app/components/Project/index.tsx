@@ -6,9 +6,10 @@ interface Props {
   url: string;
   about: string;
   title: string;
+  link: string;
 }
 
-const Project: React.FC<Props> = ({ title, about, url }) => {
+const Project: React.FC<Props> = ({ title, about, url, link }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
@@ -66,7 +67,7 @@ const Project: React.FC<Props> = ({ title, about, url }) => {
         p="2"
         backdropFilter={"blur(5px)"}
         borderRadius={"xl"}
-        background={"rgba(0, 0, 0, 0.2)"}
+        background={"rgba(200, 200, 200, 0.2)"}
       >
         <Text fontSize={"sm"} color="white">
           {about}
@@ -74,7 +75,7 @@ const Project: React.FC<Props> = ({ title, about, url }) => {
       </Box>
       <SlideFade in={isOpen} offsetY="15px">
         <Box zIndex={1} position="absolute" bottom="5" left="4">
-          <Link target="_blank" href="https://theheroapp.in/">
+          <Link target="_blank" href={link}>
             <Text
               className="text-stroke-white"
               textDecoration="underline"

@@ -5,7 +5,7 @@ export default function AllProjects() {
   return (
     <Flex
       wrap={{ base: "nowrap", xl: "wrap" }}
-      // justifyContent={"space-evenly"}
+      justifyContent={"space-evenly"}
       rowGap={6}
       mx="12"
       direction={{ base: "column", xl: "row" }}
@@ -15,13 +15,15 @@ export default function AllProjects() {
         title="Recipe Route"
         about="NEXT.JS, TAILWIND CSS, EXPRESS.JS, MONGODB"
         url="/images/p1.png"
-      />
-      {/* <Project
-        title="SoulGen"
-        about="STABLE DIFFUSION, VITE, SCSS"
-        url="/images/p2.jpg"
+        link="https://theheroapp.in/"
       />
       <Project
+        title="3D iPhone"
+        about="WebGL, SPA, Typescript"
+        url="/images/p2.png"
+        link="https://iphone-14-webgi.netlify.app/"
+      />
+      {/* <Project
         title="HeyGen"
         about="GAN, TTS, NLP, MERN"
         url="/images/p3.jpg"

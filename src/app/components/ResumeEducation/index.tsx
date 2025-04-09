@@ -36,27 +36,33 @@ export default function ResumeEducation() {
             place="ALIET"
             id="1"
           />
+          <Education
+            year="2025 - 2027"
+            title="Master's Degree"
+            place="Clemson University"
+            id="2"
+          />
         </Box>
         <Box w={{ base: "100%", xl: "48%" }}>
           <Education
-            year="Jan 2023 - Feb 2024"
-            title="Fullstack Developer"
+            year="Jan 2023 - Nov 2024"
+            title="Software Engineer"
             place="Geekster"
             id="2"
           />
           <Education
-            year="Feb 2022 - July 2022"
-            title="UI Developer III"
-            place="Wizroots Technologies"
+            year="Feb 2022 - Dec 2022"
+            title="Software Developer III"
+            place="Adobe"
           />
           <Education
             year="Feb 2021 - Jan 2022"
-            title="Fullstack Developer"
+            title="Software Developer"
             place="Freelancing"
           />
           <Education
             year="July 2018 - Dec 2020"
-            title="Fullstack Developer"
+            title="Software Developer"
             place="Bak Bak Technologies"
           />
         </Box>
